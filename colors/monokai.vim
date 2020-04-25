@@ -70,6 +70,7 @@ endfunction
 
 let s:white       = { "gui": "#E8E8E3", "cterm": "252" }
 let s:white2      = { "gui": "#d8d8d3", "cterm": "250" }
+let s:warmerwhite = { "gui": "#d3d7cf", "cterm": "252" }
 let s:black       = { "gui": "#272822", "cterm": "234" }
 let s:lightblack  = { "gui": "#2D2E27", "cterm": "235" }
 let s:lightblack2 = { "gui": "#383a3e", "cterm": "236" }
@@ -108,7 +109,7 @@ let s:br_white    = { "gui": "#FFFFFF" }
 " ------------
 
 " editor
-call s:h("Normal",        { "fg": s:white,      "bg": s:black })
+call s:h("Normal",        { "fg": s:white2,     "bg": s:black })
 call s:h("ColorColumn",   {                     "bg": s:lightblack })
 call s:h("Cursor",        { "fg": s:black,      "bg": s:white })
 call s:h("CursorColumn",  {                     "bg": s:lightblack2 })
